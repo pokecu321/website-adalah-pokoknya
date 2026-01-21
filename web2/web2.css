@@ -94,6 +94,9 @@ p ,h2{
     
     
 }
+.biodata {
+    flex: 1;
+}
 .teks{
     /* position:relative ; */
     flex: 1;
@@ -106,10 +109,30 @@ p ,h2{
     align-content: center;
 }
 
-.skills{
+.halaman1{
+    color: var(--maincolor);
     width: 100%;
     height: 100vh;
-    background-color: var(--secondarycolor);
     min-height: 800px;
     min-width:400 ;
 }
+.halaman2{
+    background-color: var(--secondarycolor);
+    width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    min-width:400 ;
+}
+.btn {
+    background-color: var(--acsentcolor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+}
+.btn-custom1:hover{
+    box-shadow: 0 0 5px var(--acsentcolor); 
+    color: black;
+    
+ }
